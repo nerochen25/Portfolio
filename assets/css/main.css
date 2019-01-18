@@ -99,7 +99,9 @@ input, select, textarea {
 
 	body, input, select, textarea {
 		color: #888;
-		font-family: "Lato", sans-serif;
+		font-family: 'Quicksand', sans-serif;
+		font-family: 'Montserrat Alternates', sans-serif;
+
 		font-size: 16pt;
 		font-weight: 400;
 		line-height: 1.75em;
@@ -2782,7 +2784,7 @@ input, select, textarea {
 					}
 
 						#header > nav ul li a.active {
-							background: #fff;
+							background: #f7b45a;
 							color: #0173b1 !important;
 						}
 
