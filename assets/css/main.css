@@ -3298,8 +3298,9 @@ input, select, textarea {
 	canvas {
 		max-width: 1414px;
 		max-height: 447px;
+		background: black;
 	}
 
 	#one {
-		margin-top: -120px;
+		margin-top: -80px;
 	}
