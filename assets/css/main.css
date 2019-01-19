@@ -1764,6 +1764,7 @@ input, select, textarea {
 		color: #aaa;
 		position: relative;
 		margin: 0 0 1.6875em 0;
+		font-size: 16pt;
 	}
 
 	header h2 + p {
@@ -2693,6 +2694,7 @@ input, select, textarea {
 		top: 0;
 		width: 23em;
 		right: 0;
+		border-radius: 10px;
 	}
 		#header h1 a {
 			font-size:38pt;
@@ -3306,4 +3308,8 @@ input, select, textarea {
 
 	#one {
 		margin-top: -80px;
+	}
+
+	body {
+		background-color: #222;
 	}
