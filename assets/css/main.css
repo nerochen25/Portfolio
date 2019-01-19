@@ -2870,7 +2870,7 @@ input, select, textarea {
 		/* Header */
 
 			#header {
-				width: 27em;
+				width: 25em;
 			}
 
 				#header > header {
@@ -3301,6 +3301,7 @@ input, select, textarea {
 	canvas {
 		max-width: 1414px;
 		max-height: 447px;
+		border-radius: 10px;
 	}
 
 	#one {
