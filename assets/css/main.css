@@ -2694,6 +2694,9 @@ input, select, textarea {
 		width: 23em;
 		right: 0;
 	}
+		#header h1 a {
+			font-size:38pt;
+		}
 
 		#header h1, #header h2, #header h3, #header h4, #header h5, #header h6 {
 			color: #ffffff;
@@ -2867,7 +2870,7 @@ input, select, textarea {
 		/* Header */
 
 			#header {
-				width: 21em;
+				width: 27em;
 			}
 
 				#header > header {
@@ -3298,7 +3301,6 @@ input, select, textarea {
 	canvas {
 		max-width: 1414px;
 		max-height: 447px;
-		background: black;
 	}
 
 	#one {

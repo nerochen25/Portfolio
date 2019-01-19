@@ -1326,7 +1326,8 @@
 		/* Header */
 
 			#header {
-				width: $size-header;
+				// width: $size-header;
+				width: 27rem;
 
 				> header {
 					padding: 2em;
