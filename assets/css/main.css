@@ -2697,7 +2697,7 @@ input, select, textarea {
 		position: fixed;
 		text-align: center;
 		top: 0;
-		width: 23em;
+		width: 25em;
 		right: 0;
 		border-radius: 10px;
 	}
@@ -2917,7 +2917,7 @@ input, select, textarea {
 		/* Header */
 
 			#header {
-				width: 20em;
+				width: 25em;
 			}
 
 		/* Wrapper */
@@ -2976,7 +2976,7 @@ input, select, textarea {
 				overflow-y: auto;
 				position: fixed;
 				top: 0;
-				width: 23em;
+				width: 25em;
 				z-index: 10002;
 				-moz-transform: translateX(23em);
 				-webkit-transform: translateX(23em);
@@ -3345,9 +3345,9 @@ input, select, textarea {
 		background: black;
 	}
 
-	#header {
+	/* #header {
 		width: 25em;
-	}
+	} */
 
 	#header h1 a {
 		font-size: 45pt;
