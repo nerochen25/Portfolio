@@ -2643,7 +2643,7 @@ input, select, textarea {
 /* Features */
 
 	.features article {
-		border-top: solid 3px #f4f4f4;
+		border-top: solid 3px #2274b1;
 		margin-bottom: 2.25em;
 		padding-top: 2.25em;
 	}
@@ -2821,7 +2821,7 @@ input, select, textarea {
 /* Main */
 
 	#main > section {
-		border-top: solid 6px #f4f4f4;
+		border-top: solid 6px #f7b45a;
 	}
 
 		#main > section > .container {
@@ -2851,7 +2851,7 @@ input, select, textarea {
 			#footer .copyright li {
 				border-left: solid 1px #d4d4d4;
 				display: inline-block;
-				font-size: 0.8em;
+				font-size: 1em;
 				margin-left: 1em;
 				padding-left: 1em;
 			}
