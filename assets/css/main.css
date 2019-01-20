@@ -3367,3 +3367,8 @@ input, select, textarea {
 	#header > nav ul li a {
 		font-size: 
 	}
+
+	#icon-p {
+		color: #f7b45a;
+		font-weight: 600;
+	}
