@@ -83,7 +83,7 @@ input, select, textarea {
 	}
 
 	body {
-		background: #fff;
+		background:black;
 	}
 
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
@@ -2192,7 +2192,7 @@ input, select, textarea {
 			.image.main img {
 				border-radius: 0;
 
-				background:#fff;
+				background:black;
 				padding:0;
 				margin:0;
 				font-weight: bold;
@@ -2814,7 +2814,7 @@ input, select, textarea {
 /* Wrapper */
 
 	#wrapper {
-		background: #fff;
+		background: black;
 		padding-right: 23em;
 	}
 
@@ -3371,4 +3371,30 @@ input, select, textarea {
 	#icon-p {
 		color: #f7b45a;
 		font-weight: 600;
+	}
+
+	body::-webkit-scrollbar {
+		width: 0.5em;
+	}
+	 
+	body::-webkit-scrollbar-track {
+		-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+	}
+	 
+	body::-webkit-scrollbar-thumb {
+	  background-color: #f7b45a;
+	  outline: 1px solid slategrey;
+	}
+
+	section::-webkit-scrollbar {
+		width: 0.5em;
+	}
+	 
+	section::-webkit-scrollbar-track {
+		-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+	}
+	 
+	section::-webkit-scrollbar-thumb {
+	  background-color: darkgrey;
+	  outline: 1px solid slategrey;
 	}
