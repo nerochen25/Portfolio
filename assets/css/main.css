@@ -2755,7 +2755,7 @@ input, select, textarea {
 
 			#header > header p {
 				color:white;
-				font-style: italic;
+				/* font-style: italic; */
 				margin: 1em 0 0 0;
 			}
 
@@ -2807,7 +2807,7 @@ input, select, textarea {
 						display: block;
 						padding: 0.85em 0;
 						text-decoration: none;
-						font-size: 16pt;
+						font-size: 15pt;
 						/* font-weight: 600; */
 					}
 
@@ -2888,7 +2888,7 @@ input, select, textarea {
 		/* Header */
 
 			#header {
-				width: 25em;
+				width: 22em;
 			}
 
 				#header > header {
@@ -2926,7 +2926,7 @@ input, select, textarea {
 		/* Header */
 
 			#header {
-				width: 25em;
+				width: 22em;
 			}
 
 		/* Wrapper */
@@ -2985,7 +2985,7 @@ input, select, textarea {
 				overflow-y: auto;
 				position: fixed;
 				top: 0;
-				width: 23em;
+				width: 22em;
 				z-index: 10002;
 				-moz-transform: translateX(23em);
 				-webkit-transform: translateX(23em);
@@ -3332,23 +3332,20 @@ input, select, textarea {
 
 	#one {
 		background: black;
-
 	}
 
 	#two {
 		background: black;
-
 	}
 
 	#three {
 		background: black;
-
 	}
 
 	#four {
 		background: black;
-
 	}
+
 
 	#footer {
 		background: black;
@@ -3359,18 +3356,22 @@ input, select, textarea {
 	} */
 
 	#header h1 a {
-		font-size: 45pt;
+		font-size: 42pt;
 	}
 
 	#header > header p {
-		color: black;
-    	font-style: italic;
+		color: white;
+    	/* font-style: italic; */
     	margin: 1em 0 0 0;
 		font-weight: 600;
-		font-size: 14pt;
+		font-size: 13pt;
 	}
 	#header > nav ul li a {
 		color: black;
+	}
+
+	#header > nav ul li a:hover {
+		font-size: 150%;
 	}
 
 
