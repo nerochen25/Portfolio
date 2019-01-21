@@ -162,7 +162,7 @@ input, select, textarea {
 	}
 
 	h4 {
-		font-size: 1.25em;
+		font-size: 1.8em;
 		line-height: 1.5em;
 	}
 
@@ -2654,21 +2654,29 @@ input, select, textarea {
 		}
 
 		.features article .image {
-			display: inline-block;
+			/* display: inline-block;
 			padding-right: 2.5em;
 			vertical-align: middle;
-			width: 48%;
+			width: 48%; */
+			width: 100%;
+			position: relative;
+			margin-bottom: 0rem;
+			display: block;
+			height: 493px;
+			overflow: scroll;
+			scroll-behavior: smooth;
 		}
 
 			.features article .image img {
 				display: block;
-				width: 109%;
+				width: 100%;
 			}
 
 		.features article .inner {
-			display: inline-block;
+			display: flex;
 			vertical-align: middle;
-			width: 50%;
+			width: 100%;
+			flex-direction: column;
 		}
 
 			.features article .inner > :last-child {
@@ -3395,7 +3403,23 @@ input, select, textarea {
 	}
 	 
 	section::-webkit-scrollbar-thumb {
-	  background-color: darkgrey;
+	  background-color: #f7b45a;
+	  outline: 1px solid slategrey;
+	  border-radius: 8px;
+
+	}
+
+
+	a::-webkit-scrollbar {
+		width: 0.5em;
+	}
+	 
+	a::-webkit-scrollbar-track {
+		-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+	}
+	 
+	a::-webkit-scrollbar-thumb {
+	  background-color: #f7b45a;
 	  outline: 1px solid slategrey;
 	  border-radius: 8px;
 
