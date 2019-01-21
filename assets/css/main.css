@@ -256,6 +256,7 @@ input, select, textarea {
 
 		.row.gtr-uniform > * > :last-child {
 			margin-bottom: 0;
+			border-color: #2274b1;
 		}
 
 		.row.aln-left {
@@ -1832,7 +1833,7 @@ input, select, textarea {
 		appearance: none;
 		border-radius: 5px;
 		border: none;
-		border: solid 2px #e4e4e4;
+		border: solid 3px #e4e4e4;
 		color: inherit;
 		display: block;
 		outline: 0;
