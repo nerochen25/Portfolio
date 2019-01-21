@@ -1793,7 +1793,7 @@ input, select, textarea {
 
 	header.major h2 {
 		color: #f7b45a;
-		font-size: 3.5em;
+		font-size: 4em;
 	}
 
 		header.major h2 + p {
@@ -3154,7 +3154,7 @@ input, select, textarea {
 			}
 
 			header.major h2 {
-				font-size: 2.5em;
+				font-size: 4em;
 			}
 
 				header.major h2 + p {
