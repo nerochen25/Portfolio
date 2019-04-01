@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<!-- saved from url=(0095)file:///Users/nerochan25/Desktop/JavaScript30-master/02%20-%20JS%20and%20CSS%20Clock/index.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  
+  <title>JS + CSS Clock</title>
+</head>
+<body>
+
+
+    <div class="clock">
+      <div class="clock-face">
+        <div class="hand hour-hand" style="transform: rotate(720deg); height: 15px; background: rgb(178, 223, 244);"></div>
+        <div class="hand min-hand" style="transform: rotate(252deg);"></div>
+        <div class="hand second-hand" style="transform: rotate(192deg); background: rgb(178, 223, 244); height: 3px;"></div>
+      </div>
+    </div>
+
+
+  <style>
+    html {
+      background: #018DED url(https://steamuserimages-a.akamaihd.net/ugc/156903125568395975/D5BC638F55520776380EAF8B614855D563F3DF19/);
+      background-size: cover;
+      font-family: 'helvetica neue';
+      text-align: center;
+      font-size: 10px;
+    }
+
+    body {
+      margin: 0;
+      font-size: 2rem;
+      display: flex;
+      flex: 1;
+      min-height: 100vh;
+      align-items: center;
+    }
+
+    .clock {
+      width: 50rem;
+      height: 50rem;
+      border: 25px solid #f2de4b;
+      border-radius: 50%;
+      margin: 50px auto;
+      position: relative;
+      padding: 10rem;
+      box-shadow:
+        0 0 0 4px rgba(0,0,0,0.1),
+        inset 0 0 0 3px #EFEFEF,
+        inset 0 0 10px black,
+        0 0 10px rgba(0,0,0,0.2);
+      background: url('https://readyandroid.files.wordpress.com/2015/09/clock.png?w=700');
+      background-image: cover;
+    }
+
+    .clock-face {
+      position: relative;
+      width: 100%;
+      height: 100%;
+      transform: translateY(-3px); /* account for the height of the clock hands */
+    }
+
+    .hand {
+      width: 50%;
+      height: 6px;
+      background: black;
+      position: absolute;
+      top: 50%;
+      transform-origin: 100%;
+      transform: rotate(90deg);
+      transition: all 0.05s;
+      transition-timing-function: cubic-bezier(0.1, 2.7, 0.58, 1);
+    }
+
+  </style>
+
+  <script>
+    const secondHand = document.querySelector('.second-hand');
+    const minuteHand = document.querySelector('.min-hand');
+    const hourHand = document.querySelector('.hour-hand')
+
+    const setDate = () => {
+      const currentTime = new Date();
+
+      const seconds = currentTime.getSeconds();
+      const secondsDegrees = ((seconds / 60) * 360) + 90;
+
+      const minutes = currentTime.getMinutes();
+      const minutesDegrees = ((minutes / 60) * 360) + 90
+
+      const hours = currentTime.getHours();
+      const hoursDegress = ((hours / 12) * 360) + 90;
+
+      secondHand.style.transform = `rotate(${secondsDegrees}deg)`;
+      secondHand.style.background = '#b2dff4';
+      secondHand.style.height = '3px';
+      minuteHand.style.transform = `rotate(${minutesDegrees}deg)`;
+      hourHand.style.transform = `rotate(${hoursDegress}deg)`;
+      hourHand.style.height = '15px';
+      hourHand.style.background = '#b2dff4';
+    }
+
+    setInterval(setDate, 1000);
+
+    setDate()
+  </script>
+
+
+</body></html>
